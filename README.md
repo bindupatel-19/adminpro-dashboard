@@ -84,3 +84,12 @@ npm install
 ### 4. **Start the development server**
 
 npm run dev
+
+---
+
+## 👤 Author
+
+- **Bindu Patel**
+- GitHub: [@bindupatel-19](https://github.com/bindupatel-19)
+
+---
