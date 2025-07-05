@@ -1,16 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
-import User from "./pages/Users";
+import Users from "./pages/Users";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
-import "./App.css";
+import MainLayout from "./layout/MainLayout";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/users" element={<User />} />
-      <Route path="/settings" element={<Settings />} />
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<Dashboard />} />
+        <Route path="users" element={<Users />} />
+        <Route path="settings" element={<Settings />} />
+      </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
