@@ -5,6 +5,17 @@ This project is being developed to showcase job-ready frontend skills.
 
 ---
 
+## 🚀 Tech Stack
+
+- ⚛️ React 19
+- ⚡ Vite
+- 🎨 Tailwind CSS 3
+- 🌐 React Router DOM v6+
+- 🧹 ESLint (code linting)
+- 🗃 Git & GitHub (version control)
+
+---
+
 ## 📅 Day 1 Summary
 
 ### ✅ What I Completed on Day 1:
@@ -27,15 +38,6 @@ This project is being developed to showcase job-ready frontend skills.
 
 ---
 
-## 🚀 Tech Stack
-
-- ⚛️ React 19
-- ⚡ Vite
-- 🎨 Tailwind CSS 3
-- 🌐 React Router DOM v6+
-- 🧹 ESLint (code linting)
-- 🗃 Git & GitHub (version control)
-
 ## 🗂️ Folder Structure
 
 ```
@@ -56,3 +58,29 @@ adminpro-dashboard/
 ├── tailwind.config.js     # Tailwind CSS config
 └── vite.config.js         # Vite config
 ```
+
+---
+
+## 🚀 Installation
+
+Follow the steps below to set up and run the project locally on your machine:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/bindupatel-19/adminpro-dashboard.git
+
+
+```
+
+### 2. Navigate to the project folder:
+
+cd adminpro-dashboard
+
+### 3. Install the dependencies:
+
+npm install
+
+### 4. **Start the development server**
+
+npm run dev
