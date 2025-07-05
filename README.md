@@ -36,6 +36,6 @@ This project is being developed in 10 days to showcase job-ready frontend skills
 - 🧹 ESLint (code linting)
 - 🗃 Git & GitHub (version control)
 
----
+# My Updated README
 
-<pre> ## 🗂️ Folder Structure ``` adminpro-dashboard/ ├── public/ ├── src/ │ ├── assets/ # Static assets (images/icons) │ ├── components/ # Reusable components (from Day 2) │ ├── pages/ # Route pages │ │ ├── Dashboard.jsx │ │ ├── Users.jsx │ │ ├── Settings.jsx │ │ └── NotFound.jsx │ ├── App.jsx # Routes config │ └── main.jsx # App entry ├── README.md # Project documentation ├── package.json # Project metadata and dependencies ├── tailwind.config.js # Tailwind CSS config └── vite.config.js # Vite config ``` </pre>
+This is my custom dashboard...
