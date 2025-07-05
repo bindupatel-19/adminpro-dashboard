@@ -38,25 +38,35 @@ This project is being developed to showcase job-ready frontend skills.
 
 ---
 
+## 📅 Day 2 - Layout Setup
+
+- ✅ Created a shared `MainLayout` with sidebar navigation and topbar.
+- ✅ Wrapped all page routes (Dashboard, Users, Settings) inside the layout using React Router's nested routes.
+- ✅ Used `<Outlet />` to render child routes within the layout.
+
+---
+
 ## 🗂️ Folder Structure
 
 ```
 adminpro-dashboard/
 ├── public/
 ├── src/
-│   ├── assets/            # Static assets (images/icons)
-│   ├── components/        # Reusable components (from Day 2)
-│   ├── pages/             # Route pages
+│   ├── assets/                   # Static assets (images/icons)
+│   ├── components/               # Reusable components
+│   ├── layout                    # layout
+│   │   ├── MainLayout.jsx
+│   ├── pages/                    # Route pages
 │   │   ├── Dashboard.jsx
 │   │   ├── Users.jsx
 │   │   ├── Settings.jsx
 │   │   └── NotFound.jsx
-│   ├── App.jsx            # Routes config
-│   └── main.jsx           # App entry
-├── README.md              # Project documentation
-├── package.json           # Project metadata and dependencies
-├── tailwind.config.js     # Tailwind CSS config
-└── vite.config.js         # Vite config
+│   ├── App.jsx                    # Routes config
+│   └── main.jsx                   # App entry
+├── README.md                      # Project documentation
+├── package.json                   # Project metadata and dependencies
+├── tailwind.config.js             # Tailwind CSS config
+└── vite.config.js                 # Vite config
 ```
 
 ---
