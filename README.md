@@ -1,7 +1,7 @@
 # AdminPro Dashboard
 
 A modern, enterprise-level admin dashboard built using **React**, **Vite**, **Tailwind CSS**, and **React Router DOM**.  
-This project is being developed in 10 days to showcase job-ready frontend skills targeting high-paying roles (12+ LPA).
+This project is being developed to showcase job-ready frontend skills.
 
 ---
 
